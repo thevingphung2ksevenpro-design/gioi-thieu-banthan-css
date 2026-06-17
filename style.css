@@ -4,38 +4,68 @@ body {
     margin: 0;
     padding: 0;
 }
-
-header {
-    background-color: #1e293b; /* Màu nền tối cho header */
-    padding: 10px;
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+.skip-link:focus {
+    top: 0;
 }
 
+header {
+    background-color: #1e293b;
+    padding: 10px;
+}
 nav {
-    background-color: #334155; /* Màu nền cho menu điều hướng */
+    background-color: #334155;
+    display: inline-block;
+    width: 80%;
+}
+
+nav img {
+    width: 10% !important;
 }
 
 main {
-    background-color: #f8fafc; /* Màu nền sáng cho nội dung chính */
+    background-color: #f8fafc;
     font-size: 18px;
     padding: 20px;
 }
 
 footer {
-    background-color: #1e293b; /* Màu nền tối cho footer */
+    background-color: #1e293b;
     padding: 10px;
-}
-
-li {
-    display: inline-block; /* Xếp menu thành hàng ngang */
-    width: 120px;
 }
 
 h1 {
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
-    color: #ffffff; /* Chữ màu trắng trên nền tối để đạt độ tương phản tốt */
+    color: #ffffff;
 }
 
 p {
-    line-height: 1.6; /* Khoảng cách dòng rộng rãi dễ đọc */
+    line-height: 1.6;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center; 
+    align-items: center;   
+    row-gap: 20px;       
+}
+
+.grid img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
