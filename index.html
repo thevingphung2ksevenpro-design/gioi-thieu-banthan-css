@@ -1,14 +1,10 @@
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <title>Trang Chủ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
     <header>
         <h1>Chào Mừng Đến Với Website Của Vinh</h1>
         <nav>
+            <img src="https://via.placeholder.com/150" alt="Logo">
             <ul>
                 <li><a href="index.html">Trang chủ</a></li>
                 <li><a href="gioithieu.html">Giới thiệu</a></li>
@@ -17,12 +13,21 @@
         </nav>
     </header>
     
-    <main>
-        <p>Tôi là Phùng Thế Vinh, tôi học trường đại học FPT</p>
+    <main id="main-content">
+        <p>Đây là trang web nâng cấp sử dụng Flexbox và Grid.</p>
+
+        <div class="grid">
+            <div class="grid-item"><img src="https://via.placeholder.com/300" alt="Hinh 1"><p>Mô tả 1</p></div>
+            <div class="grid-item"><img src="https://via.placeholder.com/300" alt="Hinh 2"><p>Mô tả 2</p></div>
+        </div>
+
+        <div class="flex">
+            <div class="flex-item">Khối 1</div>
+            <div class="flex-item">Khối 2</div>
+        </div>
     </main>
 
     <footer>
-        <p>© 2026 - Bài tập CSS - Giới thiệu bản thân</p>
+        <p>© 2026 - Bài tập nâng cao - Vinh</p>
     </footer>
 </body>
-</html>
