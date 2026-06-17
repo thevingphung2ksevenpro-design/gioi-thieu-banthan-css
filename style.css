@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e293b; /* Màu nền tối cho header */
+    padding: 10px;
+}
+
+nav {
+    background-color: #334155; /* Màu nền cho menu điều hướng */
+}
+
+main {
+    background-color: #f8fafc; /* Màu nền sáng cho nội dung chính */
+    font-size: 18px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #1e293b; /* Màu nền tối cho footer */
+    padding: 10px;
+}
+
+li {
+    display: inline-block; /* Xếp menu thành hàng ngang */
+    width: 120px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffffff; /* Chữ màu trắng trên nền tối để đạt độ tương phản tốt */
+}
+
+p {
+    line-height: 1.6; /* Khoảng cách dòng rộng rãi dễ đọc */
+}
