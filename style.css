@@ -4,15 +4,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .skip-link {
     position: absolute;
     top: -40px;
     left: 0;
-    background: #000;
+    background: #1e293b;
     color: white;
     padding: 8px;
     z-index: 100;
 }
+
 .skip-link:focus {
     top: 0;
 }
@@ -21,14 +23,16 @@ header {
     background-color: #1e293b;
     padding: 10px;
 }
+
 nav {
     background-color: #334155;
     display: inline-block;
     width: 80%;
+    padding: 10px;
 }
 
 nav img {
-    width: 10% !important;
+    width: 10%;
 }
 
 main {
@@ -55,9 +59,9 @@ p {
 .grid {
     display: grid;
     grid-template-columns: 40% 40%;
-    justify-content: center; 
-    align-items: center;   
-    row-gap: 20px;       
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
 }
 
 .grid img {
